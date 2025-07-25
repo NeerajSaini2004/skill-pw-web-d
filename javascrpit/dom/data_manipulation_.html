@@ -25,7 +25,8 @@
     <h1 class="class1">h1 with class1</h1>
     <h1 id="id1">h1 with id 1</h1>
     <script>
-      let prag = document.getElementById("prag");
+      let prag = document.getElementById("prag");  // Select the element with id="prag"
+
       console.log(prag.innerHTML);
 
       let tech = document.getElementsByClassName("tech");
@@ -40,8 +41,9 @@
       let qs = document.querySelector(".class1");
       console.log(qs);
       //    qs.className = "neeraj"
-      qs.classList = "neeraj saini rajasthan";
-      qs.setAttribute("title", "DOM");
+      qs.className = "neeraj saini rajasthan"; // Set multiple class names to the element
+qs.setAttribute("title", "DOM");         // Add title attribute to the element
+
     </script>
   </body>
 </html>
